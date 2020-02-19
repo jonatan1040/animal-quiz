@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>buzz quize</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class=question_img id="question_img" src="./images/question_img.jpeg" alt="questions">
+        <div class="question" id="question"></div>
+        <div class="answers" id="answers">
+            <div class="row">
+                <div><input class="answer" type="button" onclick="change_input_type(type),load_question(),load_answers(),score(id)" value="" id="answer_one"><label for="answer_one"></label></div>
+                <div><input class="answer" type="button" onclick="change_input_type(type),load_question(),load_answers(),score(id)" value="" id="answer_two"><label for="answer_two"></label></div>
+                <div><input class="answer" type="button" onclick="change_input_type(type),load_question(),load_answers(),score(id)" value="" id="answer_three"><label for="answer_three"></label></div>
+            </div>
+
+            <div class="row">
+                <div><input class="answer" type="button" onclick="change_input_type(type),load_question(),load_answers(),score(id)" value="" id="answer_four"><label for="answer_four"></label></div>
+                <div><input class="answer" type="button" onclick="change_input_type(type),load_question(),load_answers(),score(id)" value="" id="answer_five"><label for="answer_five"></label></div>
+                <div><input class="answer" type="button" onclick="change_input_type(type),load_question(),load_answers(),score(id)" value="" id="answer_six"><label for="answer_six"></label></div>
+            </div>
+            <div class="LOAD"><input id="LOAD" type="button" value="LOAD" onclick="load_question(),load_answers(),change_class()"></input>
+            </div>
+        </div>
+    </div>
+    <script src="./buzz quize.js"></script>
+</body>
+
+</html>

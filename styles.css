@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.question_img {
+    width: 70%;
+    height: 70%;
+}
+
+.question,
+.LOAD {
+    text-align: center;
+}
+
+#questions {
+    font-size: xx-large;
+    font-family: monospace;
+    color: darkblue;
+}
+
+#LOAD1 {
+    display: none;
+}
+
+.answers {
+    /* width: 70%; */
+}
+
+#hide {
+    display: none;
+}
+
+.row {
+    /* display: flex;  */
+}
